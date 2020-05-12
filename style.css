@@ -61,3 +61,43 @@ body  {
     max-width: 1200px;
     margin: 32px auto;
 }
+
+.about__title  {
+    font-size: 40px;
+}
+.about__description  {
+    margin: 32px 0;
+    padding: 0 16px;
+    line-height: 20px;
+}
+.about__galery {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+    
+}
+.about__image  {
+    width: 250px;
+    height: 250px;
+}
+
+.about__image--description  {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+.developer-article__title  {
+    font-size: 40px;
+}
+
+.developer-article__description  {
+    margin: 32px 0;
+    padding: 0 16px;
+    line-height: 16px;
+}
+
+.developer-article__description--list  {
+    padding:10px 0;
+}
