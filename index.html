@@ -10,63 +10,54 @@
 
 <body>
     <main>
-        <header class="nav-header">
-            <nav class="class=" main-nav"">
-                <a href="index.html">Home</a>
-                <a href="notatki.html">Notatki</a>
-                <a href="oferta.html">Oferta</a>
+        <header class="navigation">
+            <nav class="navigation-main">
+                <a class="navigation-main__link" href="index.html">Home</a>
+                <a class="navigation-main__link" href="notatki.html">Spanish Words</a>
+                <a class="navigation-main__link" href="oferta.html">English Journal</a>
             </nav>
         </header>
 
         <header class="main-header">
-            <h1 class="my-name"> Konrad Podolak</h1>
-            <h2 class="text-homepage">Homepage</h2>
-            <img class="its-me" src="Konrado.jpg" alt="zadowolony Konrad">
+            <h1 class="main-header__my-name"> Konrad Podolak</h1>
+            <p class="main-header__desription">Homepage</p>
+            <img class="main-header__my-photo" src=" Konrado.jpg" alt="zadowolony Konrad">
         </header>
-
-        <section class="section-first">
-            <h2 class="h1-who-am-i">Kim jestem?</h2>
-            <p>Nazywam się Konrad Podolak i po długich poszukiwaniach czegoś co mógłbym robić padło na frontend.
-                Siadając do tego nie byłem pewny
-                czy to jest to, ale już po kilku tygodniach walki okazajało się, że sprawia mi to więcej frajdy niż
-                mógłbym się spodziewać.
+        <div class="section-wraper">
+        <section class="about">
+            <h2 class="about__title">Who am I?</h2>
+            <p class="about__description">My name is Konrad Podolak. I am from Poland and I'm 26. I would like to tell
+                you smoe words about myslef.
+                I've just starded learning coding and I know that will consume a lot of time to became good developer
+                but anything is easy and in this period you can create
+                the world whot is very excited. I also love sport. I try to train Box and general strength training I've
+                expirienced in this bacuse in my childhood i was practicing a lot of sports for example:
+                table tennis, uni-hockey, athletic and football. With the last sport I had stayed the longest. But I
+                wasn't sufficiently good especially in phisical strenght, so I decided to left sport for same time.
+                After few years of break, sport starded be fun for my and that changed my life. But this
+                website is about my IT cariera so in the bootom I recive some reasons why I want to became Web
+                developer.
             </p>
+            <img src="developer-world.jpg" alt="happy-developer">
         </section>
-
-        <section class="section-second">
-            <h2 class="diary">Dzienniczek</h2>
-            <article class="afirst">
-                <h3>Wtorek</h3>
-                <p>Zdecydowałem się na zakup WTF frontend, bo w końcu to szkolenie, anie jakiś kurs.
-                    Siadam do dnia pierwszego i zobaczymy jak mi będzie szło.
+        <section>
+            <article class="developer-article">
+                <h2 class="developer-article__title">Why I want to be a Webdesigner</h2>
+                <p class="developer-article__description">
+                    <ul>
+                        <li>You can create the world</li>
+                        <li>You can feel freedom (meby because of homeo office work)</li>
+                        <li>If you are good you can earn good money</li>
+                        <li>Because I relly like it</li>
+                    </ul>
                 </p>
+                <img class="developer-article__photo" src="developer-world.jpg" alt="">
             </article>
-            <article asecond>
-                <h3>Środa</h3>
-                <p>Uczyłem się na Udemy i zorozumiałem, że gównie przepisuje kod jka debil </p>
-            </article>
-            <article athird>
-                <h3>Czwartek</h3>
-                <p>Przesiadłęm się na codecodemy, ponieważ stwierdziłem, że mając polskie dokładne szkolenie za cały
-                    1000 pln, lepiej będzie mieć nieustanny kontakt z jęzkiem Angielskim</p>
-            </article>
-            <article class="afourth">
-                <h3>Piątek</h3>
-                <p>Przypominałęm sobie podstawy Java Scriptu i nie jest ze mną aż tak źle</p>
-            </article>
-            <article class="afifth">
-                <h3>Sobota</h3>
-                <p>Ten dzień nie był zbyt owocny w naukę za to poczytałem książkę.</p>
-            </article>
-            <article class="asix">
-                <h3>Niedziela</h3>
-                <p>Ciężka noc za mną... Dzisiaj zbieramy siły i jutro do boju, muszę jak najefektywniej wykorzystać ten
-                    czas kwarantanny</p>
-            </article>
-
         </section>
+    </div>
+
     </main>
-    <footer class="mainfooter">Strona domowa Konrada Podolaka</footer>
+    <footer class="mainfooter">Homepage by Konrad Podolak</footer>
     <script src="main.js"></script>
 </body>
 
