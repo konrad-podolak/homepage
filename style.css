@@ -16,15 +16,16 @@ body  {
 }
 
 .navigation-main  {
+    display: flex;
+    justify-content: space-around;
     padding: 30px;
+
 }
 
 .navigation-main__link  {
     color: white;
     font-size: 30px;
     text-decoration: none;
-    padding: 20px;
-    margin-left: 40px;
 }
 
 .main-header  {
@@ -100,4 +101,59 @@ body  {
 
 .developer-article__description--list  {
     padding:10px 0;
+}
+
+
+/* ENGLISH-JOURNAL*/
+.english-journal__main  {
+    min-height: 200vh;
+    background: linear-gradient(166deg, rgba(0,0,0,1) 0%, rgba(10,35,66,1) 46%, rgba(255,90,95,1) 81%);
+}
+.konrad-journal  {
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.konrad-journal__page  {
+    margin-top: 32px;
+    background-image: url(./images/paper_1287838970.jpg);
+    width: 400px;
+    height: 700px;
+    border-radius: 5%;
+}
+
+.konrad-journal__page--text  {
+    padding: 30px;
+}
+
+/*spanish words*/
+body  {
+    height: 200vh;
+}
+.spanish-flag__colors  {
+    position: relative;
+}
+
+.spanish-flag__symbols  {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spanish-flag  {
+    margin-top: 94px;
+}
+
+.spanish-flag__red  {
+    height: 20vh;
+    width: 100%;
+    background-color:rgba(247, 12, 12, 0.8);
+}
+
+.spanish-flag__yellow  {
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(251, 255, 17);
 }
