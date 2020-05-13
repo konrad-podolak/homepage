@@ -17,7 +17,7 @@ body  {
 
 .navigation-main  {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     padding: 30px;
 
 }
@@ -26,6 +26,7 @@ body  {
     color: white;
     font-size: 30px;
     text-decoration: none;
+    margin-right: 5%;
 }
 
 .main-header  {
@@ -48,6 +49,7 @@ body  {
     width:250px;
     height: 250px;
     border-radius: 25% 30% 10% 40%;
+    z-index: 99;
 }
 
 .main-header__desription  {
@@ -65,6 +67,8 @@ body  {
 
 .about__title  {
     font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
 }
 .about__description  {
     margin: 32px 0;
@@ -80,6 +84,7 @@ body  {
 .about__image  {
     width: 250px;
     height: 250px;
+    border: 3px solid rgb(13, 156, 125);
 }
 
 .about__image--description  {
@@ -91,6 +96,8 @@ body  {
 
 .developer-article__title  {
     font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
 }
 
 .developer-article__description  {
@@ -98,9 +105,16 @@ body  {
     padding: 0 16px;
     line-height: 16px;
 }
-
+.developer-article__flex {
+    display: flex;
+    justify-content: center;
+}
 .developer-article__description--list  {
     padding:10px 0;
+}
+
+.developer-article__photo {
+    margin-left: 5%;
 }
 
 
@@ -121,6 +135,7 @@ body  {
     width: 400px;
     height: 700px;
     border-radius: 5%;
+    
 }
 
 .konrad-journal__page--text  {
