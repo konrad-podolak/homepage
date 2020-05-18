@@ -172,3 +172,34 @@ body  {
     width: 100%;
     background-color: rgb(251, 255, 17);
 }
+
+
+/* for fun with java-script*/
+
+.for-fun__java  {
+    background-color: rgb(226, 89, 165);
+}
+.for-fun__java--header  {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    padding: 10px;
+}
+
+.for-fun__java--description  {
+    width: 70vw;
+    margin: 24px 0;
+    color: white;
+}
+
+.for-fun__java--article  {
+    display: flex;
+justify-content: space-around;
+}
+
+.for-fun__java--aside  {
+    color:white;
+    border: 3px white solid;
+    padding: 10px;
+    margin-bottom: 10px;
+}
