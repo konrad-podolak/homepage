@@ -93,11 +93,18 @@ body  {
     text-transform: uppercase;
 }
 
+.developer-article  {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
 
 .developer-article__title  {
     font-size: 40px;
     text-align: center;
     margin: 40px 0;
+    padding: 16px;
+    background-color: rgb(13, 156, 125);
+    color: white;
+    text-transform: uppercase;
 }
 
 .developer-article__description  {
@@ -115,8 +122,44 @@ body  {
 
 .developer-article__photo {
     margin-left: 5%;
+    width: 250px;
+    height: 250px;
+    padding-bottom: 40px;
 }
 
+.mainfooter  {
+    text-align: center;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 3%;
+}
+
+
+/*nauka grida*/
+
+.learning-grid  {
+    display: grid;
+    grid-template-areas: "header header"
+    "article aside"
+    "footer footer";
+}
+
+.learning-grid__header  {
+    grid-area: "header";
+}
+
+.learning-grid__article  {
+    grid-area: "article";
+}
+
+.learning-grid__aside  {
+    grid-area: "aside";
+}
+
+.learning-grid__footer  {
+    grid-area: "footer";
+}
 
 /* ENGLISH-JOURNAL*/
 .english-journal__main  {
@@ -141,6 +184,8 @@ body  {
 .konrad-journal__page--text  {
     padding: 30px;
 }
+
+
 
 /*spanish words*/
 body  {
