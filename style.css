@@ -35,6 +35,24 @@ body  {
     background: linear-gradient(166deg, rgba(0,0,0,1) 0%, rgba(10,35,66,1) 46%, rgba(255,90,95,1) 81%);
     margin-top: 94px; 
 }
+.button__css  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border-radius: 20%;
+    border: solid white 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.button__css:hover {
+    background-color: #c1d320;
+    color: black;
+}
 .main-header__my-name  {
     position: absolute;
     left: 5%;
@@ -137,28 +155,41 @@ body  {
 
 
 /*nauka grida*/
-
+body  {
+    background-color: rgb(91, 236, 224);
+}
+.grid-main  {
+    margin-top: 100px;
+}
 .learning-grid  {
     display: grid;
     grid-template-areas: "header header"
     "article aside"
     "footer footer";
+    grid-template-rows: 1fr 200px;
+    grid-row-gap: 16px;
 }
 
 .learning-grid__header  {
-    grid-area: "header";
+    grid-area: header;
+    height: 50vh;
+    background-image: url(./images/GRID.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .learning-grid__article  {
-    grid-area: "article";
+    grid-area: article;
+    padding: 16px;
 }
 
-.learning-grid__aside  {
-    grid-area: "aside";
+.learning-grid__author  {
+    grid-area: aside;
+    padding: 16px;
 }
 
 .learning-grid__footer  {
-    grid-area: "footer";
+    grid-area: footer;
 }
 
 /* ENGLISH-JOURNAL*/
