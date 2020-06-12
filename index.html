@@ -12,34 +12,40 @@
   </head>
 
   <body>
-    <main>
-      <header class="navigation">
-        <nav class="navigation-main">
-          <a class="navigation-main__link" href="index.html"
-            ><i class="fas fa-home"></i>Home</a
-          >
-          <a class="navigation-main__link" href="notatki.html"
-            ><i class="fas fa-ship"></i>Spanish Words</a
-          >
-          <a class="navigation-main__link" href="english-journal.html"
-            ><i class="fas fa-book"></i> English Journal</a
-          >
-          <a class="navigation-main__link" href="./grid.html"><i class="fas fa-border-all"></i>Nauka Grida</a>
-        </nav>
-      </header>
+    <header class="header ">
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html"
+          ><i class="fas fa-home"></i>Home</a
+        >
+        <a class="navigation__link" href="notatki.html"
+          ><i class="fas fa-ship"></i>Spanish Words</a
+        >
+        <a class="navigation__link" href="english-journal.html"
+          ><i class="fas fa-book"></i> English Journal</a
+        >
+        <a class="navigation__link" href="./grid.html"><i class="fas fa-border-all"></i> Nauka Grida</a>
+      </nav>
+      <button class="hamburger hamburger--js">
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
 
+    <main>
       <header class="main-header">
         <h1 class="main-header__my-name main-header__my-name--js">
           Konrad Podolak
         </h1>
         <p class="main-header__desription">Homepage</p>
-        <button  class="button__css button__js">Zmień moje imię</button>
+        <button class="button__css button__js">Zmień nagłówek</button>
+        <div class="photo-flex">
         <img
           class="main-header__my-photo"
           src="./images/Konrado.jpg"
           alt="zadowolony-Konrad"
         />
+      </div>
       </header>
+
       <div class="section-wraper">
         <section class="about">
           <h2 class="about__title">Who am I?</h2>

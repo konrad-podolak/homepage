@@ -65,14 +65,5 @@ const messi = {
     height: 172,
     age: 32,
 }
-
 console.log(messi);
 
-const button = document.querySelector('.button__js');
-console.log(button);
-const myClick = () => {
-  const heading = document.querySelector('.main-header__my-name--js');
-  heading.innerHTML = 'Jestem J. Kaczyński i moje macki sięgają nawet tu haha';
-}
-
-button.addEventListener('click', myClick)
